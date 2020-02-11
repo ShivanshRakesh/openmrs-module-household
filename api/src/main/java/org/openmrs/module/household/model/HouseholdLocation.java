@@ -387,10 +387,6 @@ public class HouseholdLocation extends BaseOpenmrsMetadata implements java.io.Se
 		return false;
 	}
 
-	public List<HouseholdLocation> findPossibleValues(String searchText) {
-		return null;
-	}
-
 	@Override
 	public String toString() {
 		return getName();
@@ -398,11 +394,6 @@ public class HouseholdLocation extends BaseOpenmrsMetadata implements java.io.Se
 	
 	public String getDisplayString() {
 		return getName();
-	}
-
-	public List<HouseholdLocation> getPossibleValues() {
-		// TODO Auto-generated method stub
-		return null;
 	}
 
 	public HouseholdLocation hydrate(String arg0) {
